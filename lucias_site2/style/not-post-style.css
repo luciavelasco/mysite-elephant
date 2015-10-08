@@ -1,0 +1,187 @@
+/*http://www.davidrevoy.com/data/images/blog/2012/09/tears-of-steel/arm-robotic_003_net.jpg*/
+/*---------Title section---*/
+
+
+.title {
+	margin: auto;
+}
+
+.about-wrap {
+	position: relative;
+	margin: 100px 6px 0 6px;
+}
+
+.about img {
+	height: 120px;
+	margin: 0 10px 0 10px;
+	display: inline-block;
+}
+
+/*----------Main body---*/
+
+.postwrap {
+	padding: 15px;
+	overflow: auto;
+	position: relative;
+	height: 800px;
+}
+
+
+.post-prev > img {
+	height: 50px;
+	border-radius: 100%;
+}
+
+.postsnap1pic {
+	float: right;
+}
+
+.postsnap2pic {
+	float: left;
+	padding:; 2px;
+}
+
+.post-prev {
+	background-color: white;
+	opacity: 0.8;
+	color: #242626;
+	padding: 20px;
+	border-radius: 10px;
+	border: 3px solid #242626;
+	margin: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.post-prev:hover {
+	background-color: black;
+	color: whitesmoke;
+}
+
+#postsnap1 {
+}
+
+#postsnap2{
+	text-align: right;
+}
+
+
+@media (min-width: 300px) {
+
+	/*---------Title section---*/
+	.about {
+		width: 300px;
+		margin: auto auto 6px auto;
+		padding: 10px;
+		background-color: black;
+		opacity: 0.8;
+	}
+
+	.meimg {
+		float: left;
+	}
+
+	.pageimg {
+		float: right;
+	}
+	
+	.title {
+		width: 90%;
+		text-align: center;
+	}
+	.sideimg {
+		display: none;
+	}
+
+}
+
+@media (min-width: 768px) {
+	/*---------Title section---*/
+	.about-wrap {
+		overflow: auto;
+	}
+
+	.about {
+		overflow: auto;
+		margin: 6px;
+		width: 370px;
+		background-color: black;
+		opacity: 0.8;
+		display: inline-block;
+		height: 150px;
+	}
+
+	.me {
+		float: left;
+		margin-right: auto;
+	}
+
+	.page {
+		float: right;
+		margin: 0 auto 0;
+	} 
+	#float-text-right {
+		float:right;
+	}
+	.title {
+		width: 400px;
+	}
+
+	/*----------Main body---*/
+	.sideimg {
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		display: block;
+	}
+
+	.sideimg img {
+		width: 310px;
+		height: 700px;
+	}
+}
+
+@media (min-width: 992px) {
+/* make the div sizes percentages to fit large screens*/
+	/*---------Title section---*/
+	.me {
+		width: 37%;
+	}
+	.page {
+		width: 37%;
+	}
+	.title {
+		width: 810px;
+	}
+
+	/*----------Main body---*/
+	.postwrap {
+		width: 100%;
+		margin: 0 auto 0 auto;
+
+	}
+
+}
+
+@media (min-width: 1240px) {
+
+	/*.about {
+		width: 300px;
+		margin: auto auto 6px auto;
+		padding: 10px;
+		background-color: black;
+		op
+	}  */
+	.about-wrap {
+		margin-right: auto;
+		margin-left: auto;
+		width: 800px;
+	}
+	.about {
+		float: none;
+		margin: 6px;
+		display: inline-block;
+	}
+}

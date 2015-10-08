@@ -1,0 +1,15 @@
+<!--<?php // include 'posts/blog-post3.html' ?> -->
+				<div class="post-section">
+					<div class="storylinetitle">
+						<?php include 'sql.php'; 
+						echo "<a href='#'><h2>" . $storyline . "</h4></a>" ?>
+					</div>
+					<a href="#">
+					<?php $preview = true;
+						
+						GetLastTwoPosts($conn);
+					?>
+					</a>
+					<div class="morebutton">
+					</div>
+				</div>

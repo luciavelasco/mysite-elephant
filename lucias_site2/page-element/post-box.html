@@ -1,0 +1,10 @@
+					<div id="postsnap1" class="post-prev">
+						<img class="postsnap1pic" src="<?php echo $postpic; ?>"><?php 
+						if ($preview == false) { 
+							global $preview;
+							echo $content;
+						} else {
+							$preview_content = substr($content, 0, 220);
+							echo $preview_content . "...";
+						} ?>
+					</div>

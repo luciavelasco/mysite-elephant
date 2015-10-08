@@ -1,0 +1,121 @@
+* {
+	box-sizing: border-box;
+	font-family: Ubuntu;
+	color: whitesmoke;
+}
+body {
+	background: -webkit-linear-gradient(left, #28292B , #BFCDCE); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #28292B, #BFCDCE); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #28292B, #BFCDCE); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #28292B , #BFCDCE); /* Standard syntax */
+}
+
+.container {
+	margin: 73px 0 0 0;
+
+}
+
+
+/*-----------------Navbar---*/
+.navbar {
+	background: -webkit-linear-gradient(top, #BFCDCE , #28292B); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, #BFCDCE, #28292B); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, #BFCDCE, #28292B); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom, #BFCDCE , #28292B); /* Standard syntax */
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 2;
+}
+
+.icon-wrap {
+	width: 50px;
+	margin: 10px auto 10px auto;
+	overflow: auto;
+}
+
+.icon {
+	height: 50px;
+	width: 50px;
+}
+
+.home-icon {
+	position: absolute;
+	left: 10px;
+}
+
+.face-icon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+/*---------Main Body---*/
+
+.titlewrap {
+	background-color: #B1B1B1;
+	height: 100%;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	background-image: url("../img/robot-arms.jpg");
+	color: whitesmoke;
+}
+
+.storylinetitle {
+	text-align: center;
+}
+
+.storylinetitle:hover {
+	text-shadow: 3px 3px 3px #000000;
+	text-decoration: underline;
+}
+
+.post-section {
+	background: -webkit-linear-gradient(top, #28292B , #BFCDCE); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, #28292B, #BFCDCE); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, #28292B, #BFCDCE); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom, #28292B, #BFCDCE); /* Standard syntax */
+	opacity: 0.9;
+	border-radius: 5px;
+	border: 3px solid #242626;
+}
+
+
+
+@media (min-width: 300px) {
+
+	.post-section {
+		padding: 6px;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.post-section {
+		padding: 30px;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.post-section {
+		width: 550px;
+		margin: 20px auto;
+	}
+
+}
+
+@media (min-width: 1240px) {
+
+
+	.post-section {
+		width: 550px;
+		margin: auto;
+		position: static;
+		left: 20px;
+		top: 20px;
+	}
+}
+

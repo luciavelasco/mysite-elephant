@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="style/template.css" type="text/css" media="screen" rel="stylesheet">
+		<link href="style/not-post-style.css" type="text/css" media="screen" rel="stylesheet">
+		<link href="style/normalize.css" type="text/css" media="screen" rel="stylesheet">
+		<?php include 'posts/blog-post3.html' ?>
+		<title><?php echo $title ?></title>
+	</head>
+	<body>
+		
+		<?php include 'page-element/navbar.html' ?>
+		<div class="container">
+			<div class="titlewrap">
+				<!--navbar-->
+				<!--image-->
+				<!--back-button-->
+				<div></div>
+				<!--post-->
+				<div class="post-section">
+					<div class="storylinetitle">
+						<a href='#'><h2><?php echo $storyline ?></h4></a>
+					</div>
+				<?php $preview = false;
+				 include 'page-element/post-box.html'; ?>
+				<audio src="audio/The-Valley-William-and-Sly-Lucas-Paakh.mp3" controls autoplay loop>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
